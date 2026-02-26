@@ -1,0 +1,15 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+.vscode/
+
+# Avoid committing pubspec.lock for library packages
+pubspec.lock
+
+# Test artifacts
+example/*/lib/*
+example/*/test/*

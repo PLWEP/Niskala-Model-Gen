@@ -1,0 +1,17 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+    exclude:
+        - "lib/models/**"
+        - "example/**"
+    errors:
+        public_member_api_docs: ignore
+        lines_longer_than_80_chars: ignore
+
+linter:
+    rules:
+        - public_member_api_docs: false
+        - lines_longer_than_80_chars: false
+        - camel_case_types: true
+        - avoid_print: true
+        - unawaited_futures: true
